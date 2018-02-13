@@ -16,6 +16,7 @@ public class Main {
         System.out.print("Enter a hexadecimal number: ");
         hexNum = scnr.next();
         hexNum = hexNum.toLowerCase();
+        //get number and convert for common reading
 
 
         if (hexNum.startsWith("0x")) {
